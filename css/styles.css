@@ -16,6 +16,21 @@ a {
     text-decoration: none;
     }
 
+img {
+    display: block;
+}    
+
+.containerheader {
+    border-bottom: 1px solid #e7e9fc; 
+    flex-shrink: 0;
+}
+
+.container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
 .headertwo {
     color: #2e2f42;
     font-size: 36px;
@@ -23,6 +38,7 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .headerthree {
@@ -31,6 +47,7 @@ a {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .paragraph {
@@ -38,6 +55,16 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.menu{
+    display: inline-flex;
+    align-items: center;
+}
+
+.menulist {
+    display: flex-start;
+    gap: 40px;
 }
 
 .logo {
@@ -48,6 +75,7 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 } 
 
 .spanlogo {
@@ -60,6 +88,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;#434455
+    
 }
 
 .navlink:hover, .navlink:focus {
@@ -68,6 +97,7 @@ a {
 
 .addres {
     color: #434455;
+    display: flex;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
@@ -88,6 +118,7 @@ a {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    max-width: 496px;
 }
 
 .herobutton {
@@ -99,14 +130,38 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .herobutton:hover, .herobutton:focus {
     background-color: #404bbf;
 }
 
+.aboutcontainer {
+    padding: 120px 0;
+}
+
+.about {
+    visibility: hidden;
+}
+
+.aboutlist {
+    gap 24px;
+    flex-basis: calc((100%)-72px)/4);  
+}
+
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
+}
+
+.teamlist {
+    display: flex;
+    gap: 24px;
 }
 
 .teamcard {
