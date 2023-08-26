@@ -86,7 +86,8 @@ img {
 }
 
 .menulist-item {
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logo {
@@ -182,18 +183,32 @@ img {
     padding: 120px 0;
 }
 
-.about {
-    visibility: hidden;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .aboutlist {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 24px;
 }
 
 .aboulist-item {
-    width: calc((100%)-72px/4);
+    width: calc((100%-72px)/4);
+}
+
+.aboutheader {
+    margin-bottom: 8px;
 }
 
 /* Team section */
@@ -203,6 +218,10 @@ img {
     padding: 120px 0;
 }
 
+.teamheader {
+    margin-bottom: 72px;
+}
+
 .teamlist {
     display: flex;
     gap: 24px;
@@ -210,9 +229,6 @@ img {
 
 .teamcard {
     background-color: #ffffff;
-}
-
-.firstcard {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
@@ -256,6 +272,10 @@ img {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+}
+
+.portfoliolist-item-header {
+    margin-bottom: 8px
 }
 
 
