@@ -203,7 +203,7 @@ img {
     gap: 24px;
 }
 
-.aboulist-item {
+.aboutlist-item {
     width: calc((100%-72px)/4);
 }
 
