@@ -69,6 +69,7 @@ img {
 .flexible {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .container-header {
@@ -119,6 +120,7 @@ img {
 
 .addreslist {
     display: flex;
+    align-items: center;
     gap: 40px;
 }
 
@@ -152,6 +154,7 @@ img {
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .herobutton {
@@ -199,12 +202,11 @@ img {
 .aboutlist {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 24px;
 }
 
 .aboutlist-item {
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px)/4);
 }
 
 .aboutheader {
